@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "standard",
+    "lint:fix": "standard --fix",
     "test": "standard && mocha",
     "coverage": "nyc --reporter=text npm run test",
     "build-bsv": "webpack index.js --config webpack.config.js",
